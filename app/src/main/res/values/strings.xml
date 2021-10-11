@@ -4,6 +4,6 @@
     <string name="welcome">Welcome on faircorp\n the app to manage building windows</string>
     <string name="open_window">Open window</string>
     <string name="app_logo_description">Faircorp logo</string>
-
-
+    <string name="txt_window_name">window name</string>
+    <string name="txt_room_name">room name</string>
 </resources>
