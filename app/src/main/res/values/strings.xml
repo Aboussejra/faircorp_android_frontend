@@ -6,4 +6,7 @@
     <string name="app_logo_description">Faircorp logo</string>
     <string name="txt_window_name">window name</string>
     <string name="txt_room_name">room name</string>
+    <string name="menu_windows">Building windows</string>
+    <string name="menu_website">Our website</string>
+    <string name="menu_email">Send us an email</string>
 </resources>
