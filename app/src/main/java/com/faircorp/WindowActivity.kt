@@ -5,7 +5,7 @@ import android.os.Bundle
 import android.widget.TextView
 
 //const val WINDOW_NAME_PARAM = "com.faircorp.windowname.attribute"
-// already defined in mainActivite, so there seems to be a conflict
+// already defined in mainActivity, so there seems to be a conflict
 class WindowActivity : BasicActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
