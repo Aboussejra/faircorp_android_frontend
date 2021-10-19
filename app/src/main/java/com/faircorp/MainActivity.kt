@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.EditText
 import android.widget.Toast
 
-const val WINDOW_NAME_PARAM = "com.faircorp.windowname.attribute"
+//const val WINDOW_NAME_PARAM = "com.faircorp.windowname.attribute"
 //class MainActivity : AppCompatActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {
 //        super.onCreate(savedInstanceState)
@@ -22,20 +22,25 @@ const val WINDOW_NAME_PARAM = "com.faircorp.windowname.attribute"
 //        Toast.makeText(this, "You choose $windowName", Toast.LENGTH_LONG).show()
 //    }
 //}
+
+const val WINDOW_NAME_PARAM = "com.faircorp.windowname.attribute"
+
 class MainActivity : BasicActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
 
-//    /** Called when the user taps the button */
-//    fun openWindow(view: View) {
-//        val windowName = findViewById<EditText>(R.id.txt_window_name).text.toString()
-//
-//        // Do something in response to button
-//        val intent = Intent(this, WindowActivity::class.java).apply {
-//            putExtra(WINDOW_NAME_PARAM, windowName)
-//        }
-//        startActivity(intent)
-//    }
+    /** Called when the user taps the button */
+    fun openWindow(view: View) {
+        val windowName = findViewById<EditText>(R.id.txt_window_name).text.toString()
+
+        // Do something in response to button
+        val intent = Intent(this, WindowActivity::class.java).apply {
+            putExtra(WINDOW_NAME_PARAM, windowName)
+        }
+        startActivity(intent)
+    }
+
+
 }
