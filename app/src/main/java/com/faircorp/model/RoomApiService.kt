@@ -4,7 +4,6 @@ package com.faircorp.model
 import retrofit2.Call
 import retrofit2.http.*
 
-//Room API service
 
 interface RoomApiService {
     @GET("rooms")

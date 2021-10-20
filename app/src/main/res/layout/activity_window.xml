@@ -116,4 +116,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView6" />
 
+    <Button
+        android:id="@+id/btn_window_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="196dp"
+        android:onClick="switchStatus"
+        android:text="@string/switch_status"
+        android:textColor="@color/purple_700"
+        app:layout_constraintStart_toEndOf="@+id/txt_window_status"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
 </androidx.constraintlayout.widget.ConstraintLayout>

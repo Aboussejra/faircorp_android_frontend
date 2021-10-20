@@ -1,13 +1,11 @@
 package com.faircorp
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import android.widget.TextView
 import android.widget.Toast
 import androidx.lifecycle.lifecycleScope
 import com.faircorp.model.ApiServices
-import com.faircorp.model.WindowApiService
-import com.faircorp.model.WindowService
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.withContext
@@ -89,5 +87,17 @@ class WindowActivity : BasicActivity() {
         }
 
 
+    }
+    // Adding possibility to switch window
+    fun switchStatus(view: View) {
+        lifecycleScope.launch(context = Dispatchers.IO) { // (1)
+            runCatching { ApiServices().windowsApiService.updateWindow(windowId).execute(); } // (2)
+                .onSuccess {
+                    withContext(context = Dispatchers.Main) {
+                        finish();
+                        startActivity(getIntent());
+                    }
+                }
+        }
     }
     }
