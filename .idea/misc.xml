@@ -5,6 +5,9 @@
       <map>
         <entry key="app/src/main/res/layout/activity_building_windows.xml" value="0.15" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_room.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_rooms.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_rooms_item.xml" value="0.33" />
         <entry key="app/src/main/res/layout/activity_window.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_windows.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_windows_item.xml" value="0.33" />

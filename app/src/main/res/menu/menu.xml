@@ -6,6 +6,14 @@
         android:title="@string/menu_windows"
         app:showAsAction="never" />
     <item
+        android:id="@+id/menu_rooms"
+        android:title="@string/menu_rooms"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/my_website"
+        android:title="My website"
+        app:showAsAction="never" />
+    <item
         android:id="@+id/menu_website"
         android:title="@string/menu_website"
         app:showAsAction="never" />

@@ -13,6 +13,9 @@
     <string name="menu_website">Our website</string>
     <string name="menu_email">Send us an email</string>
     <string name="switch_status">Switch Status</string>
+    <string name="room_name">Room Name</string>
+    <string name="menu_rooms">Building rooms </string>
+    <string name="temperature">Temperature</string>
     <string name="act_window_name">Window name</string>
     <string name="act_window_room">Room</string>
     <string name="act_window_room_target_temp">Target room temperature</string>

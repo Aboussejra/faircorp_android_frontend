@@ -19,6 +19,12 @@ open class BasicActivity : AppCompatActivity(){
             R.id.menu_windows -> startActivity(
                 Intent(this, WindowsActivity::class.java)
             )
+            R.id.menu_rooms -> startActivity(
+                Intent(this, RoomsActivity::class.java)
+            )
+            R.id.my_website -> startActivity(
+                Intent(Intent.ACTION_VIEW, Uri.parse("https://amir-boussejra-website.herokuapp.com/"))
+            )
             R.id.menu_website -> startActivity(
                 Intent(Intent.ACTION_VIEW, Uri.parse("https://dev-mind.fr"))
             )

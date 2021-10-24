@@ -15,6 +15,4 @@ interface RoomApiService {
     @PUT("rooms/{id}")
     fun updateRoom(@Path("id") id: Long, @Body room: RoomDto) : Call<RoomDto>
 
-    @POST
-    fun createRoom(@Body room: RoomDto) : Call<RoomDto>
 }
